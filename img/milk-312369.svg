@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+ <defs>
+  <filter id="a">
+   <feGaussianBlur stdDeviation="0.3"/>
+  </filter>
+ </defs>
+ <g fill-rule="evenodd">
+  <g stroke-linejoin="round">
+   <g stroke-width="4.522">
+    <g fill="#fff" stroke="#555753">
+     <path d="m266.04 23.827l46.538 20.287-46.538-8.2309v-12.056z"/>
+     <path d="m213.46 79.496l31.553-43.968 55.91 62.406-87.462-18.438z"/>
+    </g>
+    <path d="m245.01 33.755l63.659 9.5736-8.857 52.832-54.802-62.406z" fill="#729fcf" stroke="#204a87"/>
+    <path d="m430.45 86.588l-131.19 12.41 12.732-70.561 23.803 8.8645 50.928-1.0637 1.1071 11.346 42.624 39.004z" fill="#fff" stroke="#555753"/>
+   </g>
+   <path d="m430.64 87.275l14.243 243.79-132.57 26.146-9.8604-258.63 128.18-11.306z" fill="#729fcf" stroke="#204a87" stroke-width="4.49"/>
+   <path d="m214.34 79.355l79.603 19.877 11.084 257.69-80.611-32.655-10.076-244.91z" fill="#eeeeec" stroke="#555753" stroke-width="4.316"/>
+  </g>
+  <g fill="none" stroke="#fff">
+   <g stroke-width="4.49">
+    <path d="m225.06 89.142l9.505 231.41 59.638 24.161-10.353-240.91-58.79-14.66z"/>
+    <path d="m420.75 94.842l-107.77 9.4625 9.324 244.02 112.01-22.106-13.562-231.37z" opacity=".705"/>
+   </g>
+   <path d="m264.3 43.068l29.122 33.042 4.662-27.962-33.784-5.0804z" opacity=".654" stroke-width="5"/>
+  </g>
+ </g>
+ <text transform="rotate(-5 370.39 158.89) matrix(1.4997 -3.3163e-9 -1.161e-9 1.3499 -160.4 -52.205)" x="353.547798" y="164.047024" fill="#353434" filter="url(#a)" font-family="serif" font-size="24" stroke-width="0" text-anchor="middle">MILK</text>
+</svg>

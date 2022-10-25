@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Showcase Dinámico</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <img src="img/apple-g6308d0b99_640.jpg" ondragstart="drag(event)" draggable="true" id="apple">
-    <div id="chart" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <img src="img/apple-g6308d0b99_640.jpg" ondragstart="drag(event)" draggable="true" id="apple">
+    <div id="chart" ondrop="drop(event)" ondragover="allowDrop(event)"></div> -->
+
+    <div class="container">
+      <div class="estanteria">
+        <div class="estanteria-fila">
+            <div class="estanteria-fila-producto">
+                <img src="img/apple-g6308d0b99_640.jpg" alt="manzana" id="prod">
+            </div>
+        </div>
+        <!-- Filas con productos -->
+      </div>
+    </div>
 
     <script src="main.js"></script>
-</body>
+  </body>
 </html>

@@ -13,8 +13,8 @@ function drop(ev) {
     ev.target.appendChild(document.getElementById(data));
 }
 
-let products = document.querySelectorAll('.fridge');
-  products.forEach(function(product) {
-    product.addEventListener('dragstart', allowDrop);
-    product.addEventListener('dragend', drop);
-});
+// let products = document.querySelectorAll('.estanteria-fila-producto');
+//   products.forEach(function(product) {
+//     product.addEventListener('dragstart', allowDrop);
+//     product.addEventListener('dragend', drop);
+// });

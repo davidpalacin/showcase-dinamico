@@ -1,20 +1,30 @@
-div{
-    display: inline-block;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-#arrastrar{
-    height: 200px;
-    width: 200px;
-    cursor: grab;
-    background-color: red;
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#chart{
-    height: 200px;
-    width: 200px;
-    border: 1px solid black;
-    padding: 10px;
+.estanteria{
+    border: 3px solid brown;
+    border-radius: 4px;
+    height: 90vh;
+    width: 500px;
 }
-img{
-    width: 100px;
-    height: 100px;
-    cursor: grab;
+.estanteria-fila{
+    border-bottom: 3px solid brown;
+    height: 10vh;
+    display: flex;
+}
+.estanteria-fila-producto{
+    border-right: 3px solid brown;
+    height: 10vh;
+    width: calc(100% / 5);
+}
+#prod{
+    width: 100%;
+    height: auto;
 }
