@@ -1,0 +1,20 @@
+div{
+    display: inline-block;
+}
+#arrastrar{
+    height: 200px;
+    width: 200px;
+    cursor: grab;
+    background-color: red;
+}
+#chart{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    cursor: grab;
+}
